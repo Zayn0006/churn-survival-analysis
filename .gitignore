@@ -1,0 +1,52 @@
+# 数据文件（太大，不上传GitHub）
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 环境变量（防止泄露密码）
+.env
+config.ini
+scripts/db_config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Anaconda 项目文件（自动生成）
+anaconda_projects/
+
+# Jupyter 临时文件
+.~*.ipynb
+*~
+
+# 测试/临时文件
+output/*verify*.ipynb
+output/*test*.ipynb
+*_verify.ipynb
+cleanup_notebooks.py
+
+# 输出文件（可选：如果你想把图表传上去，删掉这行）
+# output/*.png
